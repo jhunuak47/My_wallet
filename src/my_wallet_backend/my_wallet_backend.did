@@ -1,0 +1,6 @@
+service : {
+    "send_tokens": (nat64) -> (text);             // Use nat64 for a 64-bit unsigned integer and text for the return type
+    "receive_tokens": (nat64) -> ();              // receive_tokens does not return a value
+    "get_balance": () -> (nat64) query;           // get_balance returns a nat64 value and is marked as a query
+}
+ 

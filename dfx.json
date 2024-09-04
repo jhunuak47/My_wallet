@@ -1,0 +1,25 @@
+{
+  "canisters": {
+    "my_wallet_backend": {
+      "candid": "src/my_wallet_backend/my_wallet_backend.did",
+      "package": "my_wallet_backend",
+      "type": "rust"
+    },
+    "my_wallet_frontend": {
+      "dependencies": [
+        "my_wallet_backend"
+      ],
+      "source": [
+        "src/my_wallet_frontend/build"
+      ],
+      "type": "assets",
+      "build": "npm install && npm run build"
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:4943"
+    }
+  },
+  "version": 1
+}
