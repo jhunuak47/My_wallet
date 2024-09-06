@@ -40,7 +40,7 @@ The project uses the ICP blockchain and adheres to the IRCRC2 token standard.
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/my_wallet.git
+   git clone https://github.com/jhunuak47/My_wallet.git
    cd my_wallet
    ```
 
